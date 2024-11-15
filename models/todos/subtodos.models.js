@@ -7,7 +7,7 @@ const SubTodoSchema = new mongoose.Schema(
       required: true,
     },
     createdby: {
-      type: mongoose.Schema.Type.ObjectId,
+      type: mongoose.Schema.Types.ObjectId,
       ref: 'Users',
     },
   },

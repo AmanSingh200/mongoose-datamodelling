@@ -9,7 +9,7 @@ const todoScheme = new mongoose.Schema (
     },
     subtodos:[
       {
-        type:mogoose.Schema.Types.ObjectId,
+        type: mogoose.Schema.Types.ObjectId,
         ref:"SubTodo"
       },
       {
